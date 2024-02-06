@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/textureViewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        > <!-- Adjust the padding for the desired border thickness -->
+
+        <TextureView
+            android:id="@+id/textureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        > <!-- Adjust the padding for the desired border thickness -->
+
+        <TextureView
+            android:id="@+id/textureView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>
+    <FrameLayout
+        android:id="@+id/frameTextureView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/black"
+        android:padding="2dp"
+        android:alpha="0.5">
+
+        <TextureView
+            android:id="@+id/textureView3"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+</RelativeLayout>
